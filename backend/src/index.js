@@ -25,6 +25,7 @@ app.use(helmet());
 const allowedOrigins = [
   process.env.FRONTEND_URL || 'http://localhost:5173',
   'http://localhost:5173', // standard Vite port
+  'https://login-page-one-ecru.vercel.app',
 ];
 
 app.use(
